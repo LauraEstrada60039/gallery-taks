@@ -1,0 +1,18 @@
+.Grid-Container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 250px);
+	gap: 20px;
+	justify-content: center;
+
+	/*Css 3*/
+	grid-template-rows: masonry;
+}
+
+.Grid-Item {
+	width: 250px;
+	/*height: 200px;*/
+	/*Ajustamos la imagen*/
+	/*object-fit: cover;*/
+	padding: 10px;
+	border-radius: 20px;
+}
